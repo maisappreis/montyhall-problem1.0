@@ -26,7 +26,9 @@ import TheDoor from "./components/TheDoor.vue";
 
 export default {
     name: "App",
+
     components: { TheDoor },
+    
     data: function() {
         return {
             started: false,
